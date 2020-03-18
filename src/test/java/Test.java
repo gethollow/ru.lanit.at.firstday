@@ -25,5 +25,6 @@ public class Test {
         System.out.println(some.hashCode());
         System.out.println(some.equals(other));
         System.out.println(other.hashCode());
+        System.out.println(other.hashCode() == some.hashCode());
     }
 }
