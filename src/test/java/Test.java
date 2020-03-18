@@ -5,6 +5,7 @@ public class Test {
     public static void main(String[] args) {
 
         Other.saySomthing();
+        Other other = new Other();
 
         Some some = new Some("Как это делать?");
         System.out.println(some.getSecret());
@@ -22,5 +23,7 @@ public class Test {
         some.soTellMeAboutInterfaces();
         System.out.println(some.equals(some));
         System.out.println(some.hashCode());
+        System.out.println(some.equals(other));
+        System.out.println(other.hashCode());
     }
 }
