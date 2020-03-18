@@ -22,8 +22,5 @@ public class Test {
         some.soTellMeAboutInterfaces();
         System.out.println(some.equals(some));
         System.out.println(some.hashCode());
-
-
-
     }
 }
